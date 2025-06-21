@@ -161,8 +161,8 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  right: 25px;
-  top: 25px;
+  right: 52px;
+  top: 50px;
   z-index: 100;/* 重なり順を一番上にする */
   cursor: pointer;
 }
@@ -174,7 +174,7 @@ body {
 .drawer_open span:after {
   content: '';
   display: block;
-  height: 1px;
+  height: 3px;
   width: 25px;
   background: #333;
   transition: 0.5s;
@@ -183,12 +183,12 @@ body {
 
 /* 三本線の一番上の棒の位置調整 */
 .drawer_open span:before {
-  bottom: 8px;
+  bottom: 9px;
 }
 
 /* 三本線の一番下の棒の位置調整 */
 .drawer_open span:after {
-  top: 8px;
+  top: 9px;
 }
 
 /* アイコンがクリックされたら真ん中の線を透明にする */
@@ -245,7 +245,30 @@ body {
   
 }
 
-
+a.btn_lan {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+    white-space: nowrap;
+	width: 70px;
+  margin-left: 25px;
+  margin-top: -8px;
+  margin-bottom: 20px;
+	padding: 0.1em;
+	font-weight: bold;
+	border: 1.2px solid #521B00;
+	color: #521B00;
+	border-radius: 100vh;
+	transition: 0.5s;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 420;
+    font-size: 11px;
+    padding-right: 20px;
+}
+a.btn_lan:hover {
+	color: #521B00;
+	background: #fff;
+}
 
 .title h1 {
     font-family: "Noto Sans Linear A", sans-serif;
@@ -254,6 +277,18 @@ body {
     color: #521B00;
     font-style: normal;
     font-size: 40px;
+    z-index: 101;
+    margin-left: 25px;
+    -webkit-text-stroke: 1px #521B00;
+    margin-top: 12px;
+}
+.title span {
+    font-family: "Noto Sans Linear A", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #521B00;
+    font-style: normal;
+    font-size: 15px;
     z-index: 101;
     margin-left: 20px;
     -webkit-text-stroke: 0.5px #521B00;
@@ -428,4 +463,5 @@ ol > li::before {
 .bold {
     font-weight: bold;
 }
+
 
