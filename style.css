@@ -313,6 +313,7 @@ a.btn_lan:hover {
 .gazo h1 {
   position: absolute;
   font-family: "Noto Sans Linear A", sans-serif;
+	text-shadow: #000 1px 0 10px;
   color: white;
   top: 160px;
   left: 20px;
