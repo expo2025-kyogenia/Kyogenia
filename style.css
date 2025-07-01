@@ -226,6 +226,7 @@ body {
   text-align: center;
   padding-top: 20px;
   font-size: 20px;
+  color: #fff;
   
 }
 
@@ -250,7 +251,7 @@ a.btn_lan {
 	text-align: center;
 	text-decoration: none;
     white-space: nowrap;
-	width: 71px;
+	width: 118px;
   margin-left: 20px;
   margin-top: 3px;
   margin-bottom: 16px;
@@ -313,8 +314,8 @@ a.btn_lan:hover {
 .gazo h1 {
   position: absolute;
   font-family: "Noto Sans Linear A", sans-serif;
-	text-shadow: #000 1px 0 10px;
   color: white;
+  text-shadow: #000 1px 0 10px;
   top: 160px;
   left: 20px;
   margin:0;
@@ -467,3 +468,4 @@ ol > li::before {
 .bold {
     font-weight: bold;
 }
+
